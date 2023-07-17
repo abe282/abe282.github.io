@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: beige;
+    width: 90%;
+    margin: 0 auto;
+    
+font-family: 'Ysabeau Infant', sans-serif;
+
+}
+/* .container {
+    width:80%;
+    margin: 0 auto;
+   
+    } */
+header {
+   background-color: #ca00f5;
+    padding: 2%;
+    text-align: center;
+}
+header h1 {
+    font-size: 400%;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+}
+nav {
+   background-color: #600075;
+}
+nav ul {
+    list-style-type: none;
+    
+}
+nav ul li {
+    width: 19%;
+display: inline-block;
+text-align: center;
+}
+nav ul li a:link {
+    text-decoration: none;
+    display: block;
+    padding: 1% 0;
+    color: #000;
+}
+nav ul li a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 1% 0;
+    color: #fff;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    display: block;
+    background-color: #b300db;
+    padding: 1% 0;
+    color: #000;
+}
+nav ul li a:active {
+    text-decoration: none;
+    display: block;
+    padding: 1% 0;
+    color: red;
+}
+main {
+   
+    padding: 1%;
+}
+main h2 {
+    text-align: center;
+ }
+
+main section {
+    
+    margin: 1% 1% 0 1%;
+    width: 30%;
+    float: left;
+}
+main section form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e679fe;
+}
+main section form fieldset {
+    padding: 1%;
+    margin: 1%;
+}
+main section form fieldset .myform {
+    display: block;
+}
+main section form .btn {
+    font-family: 'Caveat', cursive;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    padding: 1%;
+    text-align: center;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+main section p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+main section ol {
+    list-style-position: inside;
+    line-height: 1.5;
+
+}
+main section figure {
+    width: 96%;
+    margin: 0 auto;
+}
+main section figure figcaption {
+text-align: center;
+font-variant: small-caps;
+}
+main .single-col figure {
+    width: 50%;
+    margin: 0 auto;
+}
+main section figure img {
+    width: 100%;
+    border: #000 inset 2px;
+    box-shadow: 2px 2px 2px black;
+}
+main section.single-col {
+    float: none;
+    width: 100%;
+
+}
+
+footer {
+    background-color: #ca00f5;
+    clear: left;
+    padding: 1%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+@media (max-width: 650px) {
+    body {
+        width: 100%;
+    
+    }
+    
+    main section {
+        width: 100%;
+        float: none;
+        padding: 0% 1%;
+        display: block;
+    }
+   
+    main section figure {
+        width: 80%;
+        margin: auto;
+    }
+    main section form  {
+        
+        display: block;
+    }
+}
